@@ -23,7 +23,7 @@ import {
 } from "recharts";
 import "./App.css";
 
-const API = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+const API = "";
 
 const number = (value, digits = 0) =>
   value == null || !Number.isFinite(Number(value))
